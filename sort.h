@@ -25,5 +25,11 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+
+/* quick_sort() Helper Functions Prototypes */
+void sort(int *array, size_t size, int first_index, int last_index);
+int partition(int *array, size_t size, int first_index, int last_index);
+void swap(int *a, int *b);
 
 #endif /* SORT_H */
