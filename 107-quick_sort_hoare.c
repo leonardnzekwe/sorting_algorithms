@@ -50,24 +50,23 @@ int partition(int *array, size_t size, int first_index, int last_index)
 	int start, end, pivot;
 
 	start = first_index;
-	end = last_index - 1;
+	end = last_index;
 	pivot = array[last_index];
 
-	while (start <= end)
+	while (start < end)
 	{
 		while (array[start] < pivot)
 			start++;
 		while (array[end] > pivot)
 			end--;
+
 		if (start < end)
 		{
 			swap(&array[start], &array[end]);
 			print_array(array, size);
 		}
 	}
-	swap(&array[last_index], &array[start]);
-	print_array(array, size);
-	return (start);
+	return (end);
 }
 
 /**
