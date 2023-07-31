@@ -34,7 +34,7 @@ ALX SWE Project on Sorting Algorithms & Big O Notation.
 
 ## Files
 
-- The File naming convention is based on the function it contains and its purpose
+- The File naming convention is based on the name of function it contains and its purpose
 
 ## Limitations
 
