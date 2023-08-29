@@ -2,8 +2,6 @@
 
 An implementation of Some Sorting Algorithms in C.
 
-ALX SWE Project on Sorting Algorithms & Big O Notation.
-
 ## Authors
 
 - [@leonardnzekwe](https://www.github.com/leonardnzekwe)
