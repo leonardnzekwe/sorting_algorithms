@@ -1,6 +1,8 @@
 # C - SORTING ALGORITHMS
 
-A Custom Implementation of Some Sorting Algorithms in C.
+A Custom Implementation of Some Sorting Algorithms.
+
+An ALX SWE Project on C - Stacks, Queues - LIFO, FIFO.
 
 ## Authors
 
