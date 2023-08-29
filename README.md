@@ -1,6 +1,6 @@
 # C - SORTING ALGORITHMS
 
-An implementation of Some Sorting Algorithms in C.
+A Custom Implementation of Some Sorting Algorithms in C.
 
 ## Authors
 
